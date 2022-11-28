@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BusBookingMaster.master.cs" Inherits="BusBookingProject.BusBookingMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>On Line Bus Booking</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="Default.aspx" class="navbar-brand">
+                        Online Bus Booking
+                    </a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="Default.aspx" style="font-weight: bold">Home</a></li>
+                        <li><a runat="server" href="AboutUs.aspx" style="font-weight: bold">About Us</a></li>
+                          <li><a runat="server" href="Home.aspx" id="A2" style="font-weight: bold" title="Search Buses">Search Buses</a></li>
+                        <% if (Session["UserID"] != null)
+                           { %>
+                        <li><a runat="server" href="BookingReport.aspx" id="lnkDashboard" style="font-weight: bold">Booking Report</a></li>
+                        <%} %>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <% if (Session["UserID"] == null)
+                           { %>
+                        <li><a runat="server" href="UserRegistration.aspx" id="linkRegister" style="font-weight: bold"><i class="glyphicon glyphicon-user"></i> Registration</a></li>
+                        <li><a runat="server" href="Login.aspx" id="linkLogin" style="font-weight: bold" title="Login">Login</a></li>
+                        <%}else{ %>
+                        <li>
+                           Hii!!! <asp:Label ID="lblName" runat="server" Font-Bold="true"></asp:Label>
+                           <asp:Button ID="btnLogout" runat="server" CssClass="alert-success" Text="Logout" OnClick="btnLogout_Click" />
+                        </li>
+                        <%} %>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+          <footer class="navbar navbar-default navbar-static-top" style="text-align: center;font-weight: bold;margin-top:0%;padding: 10px;">
+           <section style="width: 49%; float: left;">Copyright &copy; <%: DateTime.Now.Year %> -Demo Product</section>
+        </footer>
+    </form>
+     <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.4.1.js"></script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\GFXBandits\PublishedBusBooking</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AboutUs.aspx">
+      <publishTime>03/17/2017 09:11:16</publishTime>
+    </File>
+    <File Include="Admin/Admin.Master">
+      <publishTime>03/19/2017 08:58:27</publishTime>
+    </File>
+    <File Include="Admin/AdminLogin.aspx">
+      <publishTime>03/14/2017 17:31:21</publishTime>
+    </File>
+    <File Include="Admin/BoardingDetails.aspx">
+      <publishTime>03/14/2017 15:19:58</publishTime>
+    </File>
+    <File Include="Admin/BookingReport.aspx">
+      <publishTime>03/17/2017 11:30:21</publishTime>
+    </File>
+    <File Include="Admin/BusDetails.aspx">
+      <publishTime>03/17/2017 09:32:52</publishTime>
+    </File>
+    <File Include="Admin/BusDetailsReport.aspx">
+      <publishTime>03/14/2017 14:58:42</publishTime>
+    </File>
+    <File Include="Admin/BusScheduleDetails.aspx">
+      <publishTime>03/17/2017 09:35:11</publishTime>
+    </File>
+    <File Include="Admin/css/bootstrap.min.css">
+      <publishTime>03/13/2017 08:54:56</publishTime>
+    </File>
+    <File Include="Admin/css/style.css">
+      <publishTime>03/13/2017 08:54:56</publishTime>
+    </File>
+    <File Include="Admin/Default.aspx">
+      <publishTime>03/13/2017 08:40:27</publishTime>
+    </File>
+    <File Include="Admin/fonts/fontawesome-webfont.eot">
+      <publishTime>03/13/2017 08:54:56</publishTime>
+    </File>
+    <File Include="Admin/fonts/fontawesome-webfont.svg">
+      <publishTime>03/13/2017 08:54:56</publishTime>
+    </File>
+    <File Include="Admin/fonts/fontawesome-webfont.ttf">
+      <publishTime>03/13/2017 08:54:56</publishTime>
+    </File>
+    <File Include="Admin/fonts/fontawesome-webfont.woff">
+      <publishTime>03/13/2017 08:54:56</publishTime>
+    </File>
+    <File Include="Admin/fonts/FontAwesome.otf">
+      <publishTime>03/13/2017 08:54:56</publishTime>
+    </File>
+    <File Include="Admin/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>03/13/2017 08:54:56</publishTime>
+    </File>
+    <File Include="Admin/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>03/13/2017 08:54:56</publishTime>
+    </File>
+    <File Include="Admin/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/13/2017 08:54:56</publishTime>
+    </File>
+    <File Include="Admin/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>03/13/2017 08:54:56</publishTime>
+    </File>
+    <File Include="Admin/js/bootstrap.min.js">
+      <publishTime>03/13/2017 08:54:56</publishTime>
+    </File>
+    <File Include="Admin/js/jquery-1.4.1.js">
+      <publishTime>03/13/2017 08:54:56</publishTime>
+    </File>
+    <File Include="Admin/js/jquery.js">
+      <publishTime>03/13/2017 08:54:56</publishTime>
+    </File>
+    <File Include="Admin/RouteDetails.aspx">
+      <publishTime>03/14/2017 15:01:21</publishTime>
+    </File>
+    <File Include="bin/BusBookingProject.dll">
+      <publishTime>03/25/2017 17:04:08</publishTime>
+    </File>
+    <File Include="bin/BusBookingProject.pdb">
+      <publishTime>03/25/2017 17:04:06</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>10/07/2016 18:03:44</publishTime>
+    </File>
+    <File Include="bin/itextsharp.xmlworker.dll">
+      <publishTime>10/07/2016 18:03:44</publishTime>
+    </File>
+    <File Include="BookingReport.aspx">
+      <publishTime>03/22/2017 23:08:33</publishTime>
+    </File>
+    <File Include="BusBookingMaster.Master">
+      <publishTime>03/19/2017 08:58:38</publishTime>
+    </File>
+    <File Include="BusBookingReport.aspx">
+      <publishTime>03/14/2017 10:19:28</publishTime>
+    </File>
+    <File Include="BusBookingSearchDetails.aspx">
+      <publishTime>03/13/2017 20:21:58</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>03/11/2017 22:31:48</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>03/11/2017 22:31:48</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>03/17/2017 08:53:27</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>03/11/2017 22:31:48</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>03/11/2017 22:31:48</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>03/11/2017 22:31:48</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>03/11/2017 22:31:48</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>03/11/2017 22:31:48</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>03/11/2017 22:31:48</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>03/11/2017 22:31:48</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/11/2017 22:31:48</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>03/11/2017 22:31:48</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>03/22/2017 23:01:40</publishTime>
+    </File>
+    <File Include="img/banner-home-1.jpg">
+      <publishTime>03/17/2017 08:16:12</publishTime>
+    </File>
+    <File Include="img/BlockedSeat.png">
+      <publishTime>03/13/2017 13:29:42</publishTime>
+    </File>
+    <File Include="img/bookedseats.png">
+      <publishTime>03/13/2017 13:29:42</publishTime>
+    </File>
+    <File Include="img/Bus1.png">
+      <publishTime>03/17/2017 08:45:20</publishTime>
+    </File>
+    <File Include="img/Bus2.jpg">
+      <publishTime>03/17/2017 08:45:20</publishTime>
+    </File>
+    <File Include="img/Bus3.jpg">
+      <publishTime>03/17/2017 08:45:20</publishTime>
+    </File>
+    <File Include="img/Bus4.jpg">
+      <publishTime>03/17/2017 08:45:20</publishTime>
+    </File>
+    <File Include="img/ladiesSeat.png">
+      <publishTime>03/13/2017 13:29:42</publishTime>
+    </File>
+    <File Include="img/newAvailableSeat.png">
+      <publishTime>03/13/2017 13:29:42</publishTime>
+    </File>
+    <File Include="img/newSelectedSeat.png">
+      <publishTime>03/13/2017 13:29:42</publishTime>
+    </File>
+    <File Include="img/notAvailableSeat.png">
+      <publishTime>03/13/2017 13:29:42</publishTime>
+    </File>
+    <File Include="img/notAvailableSeats.png">
+      <publishTime>03/13/2017 13:29:42</publishTime>
+    </File>
+    <File Include="img/selectedseat.png">
+      <publishTime>03/13/2017 13:29:42</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>03/11/2017 22:31:48</publishTime>
+    </File>
+    <File Include="js/jquery-1.4.1.js">
+      <publishTime>03/11/2017 22:31:48</publishTime>
+    </File>
+    <File Include="js/jquery.js">
+      <publishTime>03/11/2017 22:31:48</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>03/22/2017 22:49:27</publishTime>
+    </File>
+    <File Include="PassengerDetailsInfo.aspx">
+      <publishTime>03/22/2017 23:09:55</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>03/25/2017 17:04:13</publishTime>
+    </File>
+    <File Include="SeatDetails.aspx">
+      <publishTime>03/14/2017 17:22:20</publishTime>
+    </File>
+    <File Include="UserRegistration.aspx">
+      <publishTime>03/12/2017 21:31:50</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/25/2017 17:04:09</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
